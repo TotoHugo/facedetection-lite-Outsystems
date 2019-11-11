@@ -110,7 +110,7 @@ public class FaceDetectionPlugin extends CordovaPlugin {
         }
 
         AssetManager assetManager = cordova.getActivity().getAssets();
-        InputStream is = assetManager.open("facefinder");
+        InputStream is = assetManager.open("www/facefinder");
         this.faceFinder = new byte[is.available()];
         is.read(this.faceFinder);
         is.close();
