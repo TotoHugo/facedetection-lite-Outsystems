@@ -1,0 +1,37 @@
+{
+  "name": "cordova-plugin-facedetection-lite",
+  "version": "0.3.5",
+  "description": "A face detection offline with a few lines of code. Was designed to run on old smartphones.",
+  "cordova": {
+    "id": "cordova-plugin-facedetection-lite",
+    "platforms": [
+      "ios",
+      "android",
+      "browser"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luisdemarchi/cordova-plugin-facedetection-lite.git"
+  },
+  "issue": "https://github.com/luisdemarchi/cordova-plugin-facedetection-lite/issues",
+  "keywords": [
+    "ecosystem:cordova",
+    "phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-browser",
+    "facedetection",
+    "face",
+    "detection",
+    "detector",
+    "detecção",
+    "lite"
+  ],
+  "author":{
+    "name": "Luís De Marchi",
+    "email": "luis@luisdemarchi.com.br",
+    "url": "http://www.luisdemarchi.com.br"
+  },
+  "license": "unlicense"
+}
