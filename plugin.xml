@@ -38,6 +38,7 @@
 		<config-file platform="ios" target="*-Info.plist" parent="NSCameraUsageDescription" overwrite="true">
 			<string>Allow the app to use your camera</string>
 		</config-file>
+		<source-file src="facefinder" target-dir="assets"/>
 		<source-file src="src/ios/FaceDetection.m" target-dir="FaceDetection-Lite" />
 		<!-- Compiled C libraries -->
 		<source-file src="src/ios/libs/libpicornt.a" framework="true" />
